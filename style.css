@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Main heading style */
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+/* Results styling */
+h2 {
+    color: #0056b3;
+    text-align: left;
+    margin-top: 40px;
+}
+
+p {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 16px;
+}
