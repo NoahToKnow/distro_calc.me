@@ -17,11 +17,6 @@ def main():
 
 
     amount = float(input("Enter the dollar amount: "))
-    # taxes_percentage = float(input("Enter the percentage for taxes: "))
-    # profits_percentage = float(input("Enter the percentage for profits: "))
-    # owners_comp_percentage = float(input("Enter the percentage for owner's compensation: "))
-    # expenses_percentage = float(input("Enter the percentage for expenses: "))
-    # profit_percentage = float(input("Enter the percentage for profit: "))
 
     taxes, profits, owners_comp, expenses, investing = calculate_split(amount, sanctum_distribution)
 
